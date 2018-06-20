@@ -1,21 +1,4 @@
-{ 
-  "xx-net.net":
-  [
-    "alouc.com", "alouc.net", "baonhat.com", "baouc.us", "bellsmarden.co.uk", "bitshares.com.ua",
-    "blackboysevenoaks.co.uk", "bonnycravat.co.uk", "cafe2f.com", "cocoabeing.com.au",
-    "contactguru.me", "coroler.com", "cuonggian.net", "dortmundspiel.review", "dulichvietxinh.vn",
-    "eastindiaarms.co.uk", "ebookkelistrikansepedamotor.cf", "fidelforde.com", "manybots.com",
-    "newsvietuc.net", "nguyenphilong.com", "vabis.com.vn", "vietnews24h.net", "vobep.com",
-    "whitehorsecanterbury.co.uk", "yeunuocnhat.com"]
-  ,
-  "xx-net.ml":
-  [ 
-    "amesd.org", "bloomingbox.ma", "bloomingbox.net", "contabilidadegalo.com.br",
-    "dahliajunephotography.com", "dreampdf.gq", "fnakbook.gq", "fronesis.co",
-    "globalectern.altervista.org", "hkhummel.com", "interfacereality.com", "kenzabennis.com",
-    "kenzyspell.com", "netdamage.cf", "nethef.cf", "no-limits.org", "nokiaphoto.org", "vwa.com.br",
-    "wearevr360.com", "yakupa.com", "zaiger24.ru"]
-  ,
+{
   "movistar.gq":
   [
     "365bootstrap.com", "bijuteriya74.ru", "bookdlv.cf", "cl8ud.cf", "cl8ud.com", "cvhsyu.cf",
@@ -26,38 +9,51 @@
     "trustedcasementwindows.com", "xona.biz"
   ]
   ,
-  "dragon-dreamer.com":
-  ["akvola.com", "akvola.de", "alfagarantsochi.ru", "altobzor.ru", "arenda-kp.ru", "arsrossica.ru",
-    "autoprojektor.ru", "avan-c.ru", "bcstandart.ru", "betmarket2009.ru", "blogpolunochnika.ru",
-    "bookshop14.ru", "dental-claims.co.uk", "gipnotehnika.ru", "goldenringresorts.ru",
-    "gportalmax.ru", "gudimdoma.ru", "hollyrollers.ru", "hyperwarez.ru", "hyundai-i20.ru",
-    "incisivecdn.com", "karates.ru", "melaniharriman.com", "muzvideokino.ru", "pakmem.de",
-    "risk.co.uk", "seobaby.ru", "yota23.ru"]
-  ,
   "mostlygood.ga":
-  ["aahms.net", "aromajane.com", "aushelves.ga", "bayliff.law", "bookjerm.ga", "bookwor.ga",
-    "brianhanchey.com", "bythereview.ga", "checalo.cf", "dumpsterrentalmacon.club", "idmcracks.com",
-    "jbh.in", "kickdonaldtrumpintheface.com", "librarymoocs.ga", "mcareview.ga", "misyonporn.com",
-    "naaktesexivrouwen.tk", "snappmobile.net", "vardenafilschweiz.nu", "yapreview.ga"]
-  ,
-  "serviceplace.ga":
-  ["alarmsystemenofferte.nl", "anjaypulsa.info", "awols.top", "classofclanguide.online",
-    "downloadmania.stream", "glasses-direct.in", "hexinguoji.com", "hotcarreviews.com",
-    "jiachen.design", "justisianto.com", "livingfrugalinga.com", "mandarinmedianet.com",
-    "marketingforo.com", "mywebsitemanual.com", "nmchdhaka.com", "ontariofryway.com",
-    "preowneddiamondrings.com", "rockskincare.in", "ss4qt.com", "youforn-18.ml",
-    "zonasehat.info"]
-  ,
-  "feefree.cf":
-  ["414ovalpdf.tk", "allaroundgreen.com", "bn-ok.com", "greenpassivesolar.com", "ifif2016.com",
-    "kulentzjax.edu.pl", "lp3355.com", "marketinq.pl", "nba-am.com", "pm8299.com", "pn-ok.com",
-    "priligykosten.nu", "romano.bz.it", "samuiflowers.com", "shop67.bid",
-    "sicherheitscenter-kontoverifizierung-nr-13379.site", "snd33.com", "t-1004.com", "tpm3355.com",
-    "zaynashop.online", "zwebstore.biz"],
+  ["aahms.net", "aromajane.com", "aushelves.ga", "bayliff.law", "bookjerm.ga", "bookwor.ga", "brianhanchey.com",
+    "bythereview.ga", "checalo.cf", "dumpsterrentalmacon.club", "ereadin.ml", "etahpura.ml", "idmcracks.com",
+    "isfepsypl.cf", "jackitro.info", "librarymoocs.ga", "mcareview.ga", "misyonporn.com", "mostlygood.ga",
+    "naaktesexivrouwen.tk", "removie.gq", "snappmobile.net", "vardenafilschweiz.nu", "yfvadeyoumycn.tk"],
   "gotoworld.tk":
-  ["beerparade.com.mx", "cartisciano.com", "catchithard.com", "elccc.mx", "ganaconfab.com",
-    "intercomputo.com.mx", "internationalerumzug.ch", "internationalmover.de", "madcatzrat.review",
-    "matrushkabrands.mx", "nasiri.pro", "notariax.com", "parathatreats.ga", "propertylawadvice.biz",
-    "sirelo.it", "tacomaautomobile.cf", "trhaberdetay.xyz", "vilvulei.com"]
+  ["bedmintoncoats.ml", "beerparade.com.mx", "buy3dmovies.cf", "catchithard.com", "elccc.mx", "enteha.net",
+    "ganaconfab.com", "gotoworld.tk", "hanthelconsulting.com", "intercomputo.com.mx", "internationalerumzug.ch",
+    "internationalmover.de", "madcatzrat.review", "matrushkabrands.mx", "nasiri.pro", "notariax.com",
+    "parathatreats.ga", "propertylawadvice.biz", "sirelo.it", "tacomaautomobile.cf", "trhaberdetay.xyz", "vilvulei.com"],
+  "sawfish.tk":
+  ["3idarchitecture.com.au", "3idstudios.com.au", "bokstaller.com", "caredentistry.com", "charmforever.fr",
+    "cleanbinaryoptions.co", "diamondbacksfanaticsjersey.com", "egoshop.ml", "hippohosting.tk", "hippotravel.tk",
+    "hippotravelstudio.ml", "hydronz.co.nz", "insoftbot.ga", "intensejointpain.com", "iprice2.club", "keymochi.cf",
+    "letteringlogo.bid", "marceloarmesto.com", "marceloarmesto.com.br", "marinersfanaticsjersey.com",
+    "nationalsfanaticsjersey.com", "nuleqsa.info", "ohmygeez.com", "soundaholic.ch", "xamgraphic.com"],
+
+  "c-term.tk":
+  ["alatperagakesehatan.net", "alkes.me", "alkesone.com", "audiodim.me", "blacksdirectory.com", "blatantskills.com",
+    "bmovietees.cf", "brain.ink", "cnk8081toloac.ga", "glorya.co.id", "gloryamedica.com", "healthcarereformdigest.com",
+    "jentheeditor.com", "jualautoclave.com", "jualdefibrillator.com", "lbpinstitute.com", "lunasinstore.com",
+    "micapricho.nl", "mycarebear.co.uk", "pusatinkubatorbayi.com", "tenniscahul.com"],
+  "book-mark.ml":
+  [
+    "anamica.ch", "annuiities.tk", "atrociaty.ga", "buyapartment.us", "buyvindictus.com",
+    "coaerse.ga", "domainslittle.top", "driftwogod.tk", "freeriotpointslol.win", "giftsstaff.top",
+    "hannover-bistro-bingo.de", "hatinsubt.tk", "menfarm.ru", "movie-join.cf", "newzealandtour.top",
+    "nynelcuore.altervista.org", "pizzataxi-giessen.de", "publinarranger.tk", "que-huong-bistro.de",
+    "quelina.com", "soletta.ru", "sorpresagourmet.com", "vyabooks.ml", "whentermined.ga",
+    "yesmovie633.cf", "zm8mu84n.tk"
+  ],
+  "xxxooo.gq": [
+    "absolutewhores.com", "blowjobdelight.com", "charlestonbusiness.tk", "cheriedeville.xxx",
+    "cherrypieteens.com", "cherrypimpsmodels.com", "coolwebtrends.com", "crazyfunnystupid.net",
+    "daily-social-media.com", "egtmedia.com", "famous-pornstars.net", "freesinnercomics.com",
+    "funnywebvideos.net", "gdanskbusinessrun.pl", "gorgeouspornstars.net", "hotpornstarsnow.com",
+    "internet-lol.com", "lodzbusinessrun.pl", "news-and-media.com", "northstar.ai",
+    "onlyjuliaann.com", "onlymiamalkova.com", "onlyskindiamond.com", "onlytrinitystclair.com",
+    "phoom.in.th", "poznanbusinessrun.pl", "sexy-pornvideos.com", "sinnercomics.com",
+    "spankysteens.com", "sunnyleoneblog.com", "teens-trends.com", "vimpir.com", "wroclawbusinessrun.pl"
+  ],
+  "tangg.tk": [
+    "alphstorage.com", "bookshopinindia.com", "estafasbancarias.es", "glsservices.ca", "jordanov.org",
+    "nebraskatreasurehunt.com", "odkryjpolske.net", "ssadanmedia4.ml", "tracons.org",
+    "xn--norske-spilleautomater-p-nett-jrc.net"
+  ]
 
 }
