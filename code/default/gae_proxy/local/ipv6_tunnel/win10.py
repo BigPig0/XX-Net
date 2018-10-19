@@ -7,7 +7,7 @@ import time
 import socket
 import platform
 from .common import *
-import win32elevate
+from . import win32runas
 from .pteredor import local_ip_startswith
 
 current_path = os.path.dirname(os.path.abspath(__file__))
@@ -44,15 +44,15 @@ enable_cmds = """
 @set log_file="{}"
 
 @echo Config servers...
-@call:[config servers]>>"%log_file%"
+@call:[config servers]>>%log_file%
 
 @echo Reset IPv6...
-@call:[reset ipv6]>>"%log_file%"
+@call:[reset ipv6]>>%log_file%
 
 @echo Set IPv6 Tunnel...
-@call:[set ipv6]>>"%log_file%"
+@call:[set ipv6]>>%log_file%
 
-@call:[print state]>>"%log_file%"
+@call:[print state]>>%log_file%
 
 @echo Over
 @echo Reboot system at first time!
@@ -89,27 +89,27 @@ goto :eof
 
 
 :[reset ipv6]
-""".format(log_file) + \
-'%s %s\\win_reset_gp.py' % (sys.executable, current_path) + \
-"""
 netsh interface ipv6 reset
 ipconfig /flushdns
 goto :eof
 
 
 :[set ipv6]
+:: Reset Group Policy Teredo
+"{}" "{}\\win_reset_gp.py"
+
+""".format(log_file, sys.executable, current_path) + \
+"""
 netsh interface teredo set state type={} servername={}.
 
 :: Set IPv6 prefixpolicies
-:: 2001::/16 Aggregate global unicast address; not default
+:: See https://tools.ietf.org/html/rfc3484
 :: 2002::/16 6to4 tunnel
-:: 2001::/32 teredo tunnel
+:: 2001::/32 teredo tunnel; not default
 netsh interface ipv6 add prefixpolicy ::1/128 50 0
 netsh interface ipv6 set prefixpolicy ::1/128 50 0
 netsh interface ipv6 add prefixpolicy ::/0 40 1
 netsh interface ipv6 set prefixpolicy ::/0 40 1
-netsh interface ipv6 add prefixpolicy 2001::/16 35 6
-netsh interface ipv6 set prefixpolicy 2001::/16 35 6
 netsh interface ipv6 add prefixpolicy 2002::/16 30 2
 netsh interface ipv6 set prefixpolicy 2002::/16 30 2
 netsh interface ipv6 add prefixpolicy 2001::/32 25 5
@@ -149,7 +149,7 @@ netsh interface 6to4 set state disabled
 netsh interface isatap set state disabled
 """
 
-has_admin = win32elevate.areAdminRightsElevated()
+has_admin = win32runas.is_admin()
 
 # Use this if need admin
 # Don't hide the console window
@@ -165,7 +165,7 @@ def elevate(script_path, clear_log=True):
                 xlog.warn("remove %s fail:%r", log_file, e)
 
         try:
-            win32elevate.elevateAdminRun(None, script_path, True, False)
+            win32runas.runas(None, script_path)
             return True
         except Exception as e:
             xlog.warning('elevate e:%r', e)
@@ -210,6 +210,14 @@ def state():
             last_state = "probe"
 
     return last_state
+
+
+def state_pp():
+    return "Developing"
+
+
+def switch_pp():
+    return "Developing"
 
 
 def enable(is_local=False):
